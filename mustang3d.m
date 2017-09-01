@@ -2,8 +2,8 @@ clear;
 %close all;
 clc;
 
-%[pts, tris, norms] = objread('p51_mustang.obj');
-[pts, tris, norms] = objread('box.obj');
+[pts, tris, norms] = objread('p51_mustang.obj');
+%[pts, tris, norms] = objread('box.obj');
 
 numPts=size(pts,1);                 %points to projects
 
